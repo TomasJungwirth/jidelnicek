@@ -1,0 +1,111 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 25px;
+}
+
+body {
+    background-image: url(slunce.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+
+/* HEADER */
+
+
+
+
+/* MAIN */
+#obsah {
+    width: 50%;
+    margin: 0 auto;
+}
+
+
+
+h1 {
+    margin-top: 8%;
+    margin-bottom: 5%;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 35px;
+}
+
+#a {
+    border: 5px solid black;
+    padding: 20px;
+    background-color: greenyellow;
+    margin-bottom: 5%;
+    border-radius: 15px;
+}
+
+#b {
+    border: 5px solid black;
+    padding: 20px;
+    background-color: yellowgreen;
+    margin-bottom: 5%;
+    border-radius: 15px;
+}
+
+#c {
+    border: 5px solid black;
+    padding: 20px;
+    background-color: yellow;
+    margin-bottom: 5%;
+    border-radius: 15px;
+}
+
+#d {
+    border: 5px solid black;
+    padding: 20px;
+    background-color: greenyellow;
+    margin-bottom: 5%;
+    border-radius: 15px;
+}
+
+#e {
+    border: 5px solid black;
+    padding: 20px;
+    background-color: yellowgreen;
+    margin-bottom: 55%;
+    border-radius: 15px;
+}
+
+.nadpis {
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.popis {
+    padding-top: 10px;
+    padding-bottom: 15px;
+    padding-right: 50px;
+   /* font-style: italic;   */
+}
+
+
+li {
+margin-left: 3%;
+}
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 767px) {
+    #obsah {
+      width: 85%; 
+    }
+ }
+
+
+
+
+  
